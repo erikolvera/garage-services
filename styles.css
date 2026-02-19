@@ -1,7 +1,9 @@
 /* ============================================
    RESET & BASE
    ============================================ */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -155,9 +157,11 @@ img {
 .navbar__hamburger.open span:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
 }
+
 .navbar__hamburger.open span:nth-child(2) {
   opacity: 0;
 }
+
 .navbar__hamburger.open span:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
@@ -205,12 +209,12 @@ img {
 
 .hero__eyebrow {
   display: inline-block;
-  font-size: 0.78rem;
-  font-weight: 600;
+  font-size: 0.8rem;
+  font-weight: 900;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: #0D9488;
-  background: rgba(13, 148, 136, 0.08);
+  background: rgba(189, 193, 175, 0.08);
   border: 1px solid rgba(13, 148, 136, 0.2);
   padding: 0.35rem 1rem;
   border-radius: 99px;
